@@ -16,8 +16,8 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Odoo made Einfach', 'http://fshahy.github.io/'),
-          ('Odoo', 'http://odoo.com/'),
+LINKS =  (('Odoo', 'http://odoo.com/'),
+	  ('Odoo made Einfach', 'http://fshahy.github.io/'),
          )
 
 # Social widget
