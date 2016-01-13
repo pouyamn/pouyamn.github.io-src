@@ -38,7 +38,7 @@ PLUGINS = ["googleplus_comments"]
 
 #theme
 #THEME = "themes/mnmlist"
-THEME = "/home/pmn/ghpages/pelican-themes-master/bootstrap2-dark"
+THEME = "/home/pmn/ghpages/pelican-themes-master/chunk"
 
 # Urls
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
