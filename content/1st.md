@@ -1,6 +1,6 @@
 Title: Seting Up this blog with Pelican
 Date: 2015-12-24 11:26 
-Modified: 2015-12-24 11:26 
+Modified: 2016-01-13 12:26 
 Category: Pelican
 Tags: pelican, publishing
 Slug: setup-blog
@@ -65,3 +65,24 @@ git push -u origin master
 Demystification:
 make the html files, setup the links and prepare it, send the compiled result to github and finally send the source files to github too keep them safe :).
 that's it.
+
+++edit++
+Some caretaker's tasks:
+- Make publishing more automatic and comfortable:
+```bash
+#file: makefile
+...
+github: publish
+	cd $(OUTPUTDIR)
+	git add .
+	git commit -m "Auto Post!"	
+	git push origin master
+	cd $(BASEDIR)
+	git add .
+	git commit -m "Auto Commit!"	
+	git push origin master
+```
+So I can use `make github` for publishing and posting to my account.
+- take care of `pelicanconf.py` and `publishconf.py`, the former is for local serving and testing and the latter is for publishing, as the name suggests!
+ - put disqus, google analytics etc in publish profile only, put the others in **both** .
+ - use relative paths in `pelicanconf.py`, don't use them in `publishconf.py`.

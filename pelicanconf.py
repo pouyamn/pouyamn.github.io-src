@@ -15,6 +15,9 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
+DELETE_OUTPUT_DIRECTORY = False
+
+
 # Blogroll
 LINKS =  (('Odoo', 'http://odoo.com/'),
 	  ('Odoo made Einfach', 'http://fshahy.github.io/'),
@@ -28,3 +31,17 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#plugins
+PLUGIN_PATH = 'plugins'
+PLUGINS = ["googleplus_comments"]
+
+#theme
+#THEME = "themes/mnmlist"
+THEME = "/home/pmn/ghpages/pelican-themes-master/chunk"
+
+# Urls
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/index.html'
