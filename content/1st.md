@@ -66,23 +66,27 @@ Demystification:
 make the html files, setup the links and prepare it, send the compiled result to github and finally send the source files to github too keep them safe :).
 that's it.
 
-++edit++
+__edit__
 Some caretaker's tasks:
-- Make publishing more automatic and comfortable:
+
+* Make publishing more automatic and comfortable:
 ```bash
 #file: makefile
 ...
 github: publish
-	cd $(OUTPUTDIR)
-	git add .
-	git commit -m "Auto Post!"	
-	git push origin master
-	cd $(BASEDIR)
-	git add .
-	git commit -m "Auto Commit!"	
-	git push origin master
+		cd $(OUTPUTDIR)
+		git add -A .
+		git commit -m "Auto Post!"	
+		git push origin master
+		cd $(BASEDIR)
+		git add -A .
+		git commit -m "Auto Commit!"	
+		git push origin master
 ```
 So I can use `make github` for publishing and posting to my account.
-- take care of `pelicanconf.py` and `publishconf.py`, the former is for local serving and testing and the latter is for publishing, as the name suggests!
- - put disqus, google analytics etc in publish profile only, put the others in **both** .
- - use relative paths in `pelicanconf.py`, don't use them in `publishconf.py`.
+
+* take care of `pelicanconf.py` and `publishconf.py`, the former is for local serving and testing and the latter is for publishing, as the name suggests!
+
+ *  put disqus, google analytics etc in publish profile only, put the others in **both** .
+ 
+ * use relative paths in `pelicanconf.py`, don't use them in `publishconf.py`.

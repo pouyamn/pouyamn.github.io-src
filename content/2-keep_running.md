@@ -59,5 +59,5 @@ done
 just run it the same as before:
 ```bash
 nohup ./run-odoo.sh &
-````
+```
 clean and easy! 

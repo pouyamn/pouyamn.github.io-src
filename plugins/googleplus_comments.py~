@@ -4,13 +4,6 @@ Google Comments Plugin For Pelican
 ==================================
 
 Adds Google comments to Pelican
-----------
-Add a <div> for comments to the article.html of your template:
-
-<div id="commentswrap">
-<div id="comments"></div>
-</div>
-{{ article.metadata.googleplus_comments }}
 """
 
 from pelican import signals

@@ -37,9 +37,9 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ["googleplus_comments"]
 
 #theme
-#THEME = "themes/mnmlist"
-THEME = "/home/pmn/ghpages/pelican-themes-master/chunk"
-
+THEME = "themes/SoMA2"
+#google pluse api key
+GOOGLE_PLUS_API_KEY="AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw"
 # Urls
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'

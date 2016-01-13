@@ -103,11 +103,11 @@ cf_upload: publish
 
 github: publish
 	cd $(OUTPUTDIR)
-	git add .
+	git add -A .
 	git commit -m "Auto Post!"	
 	git push origin master
 	cd $(BASEDIR)
-	git add .
+	git add -A .
 	git commit -m "Auto Commit!"	
 	git push origin master
 

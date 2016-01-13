@@ -21,7 +21,7 @@ DELETE_OUTPUT_DIRECTORY = False
 # Following items are often useful when publishing
 
 #DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-72349337-1"
 
 
 #plugins
@@ -29,8 +29,7 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ["googleplus_comments"]
 
 #theme
-#THEME = "themes/mnmlist"
-THEME = "/home/pmn/ghpages/pelican-themes-master/chunk"
+THEME = "themes/SoMA2"
 
 # Urls
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
