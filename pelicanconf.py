@@ -21,6 +21,7 @@ DELETE_OUTPUT_DIRECTORY = False
 # Blogroll
 LINKS =  (('Odoo', 'http://odoo.com/'),
 	  ('Odoo made Einfach', 'http://fshahy.github.io/'),
+	  ('Odoo made easy','http://www.odoo.yenthevg.com/')
          )
 
 # Social widget

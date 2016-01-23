@@ -38,7 +38,7 @@ PLUGINS = ["googleplus_comments"]
 
 #theme
 THEME = "themes/SoMA2"
-#google pluse api key
+#google plus api key
 GOOGLE_PLUS_API_KEY="AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw"
 # Urls
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
