@@ -1,4 +1,4 @@
-Title: Would you like 'like' and 'ilike' in your _domain_ and _attr_?
+Title: Would you like 'like' and 'ilike' in your *domain* and *attr*?
 Date: 2016-01-23 21:26 
 Modified: 2016-01-23 21:26 
 Category: views
