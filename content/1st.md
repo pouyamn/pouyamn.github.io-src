@@ -1,7 +1,7 @@
 Title: Seting Up this blog with Pelican
 Date: 2015-12-24 11:26 
-Modified: 2016-01-13 12:26 
-Category: Pelican
+Modified: 2016-01-23 10:26 
+Category: non-odoo
 Tags: pelican, publishing
 Slug: setup-blog
 Authors: Pouya MN
@@ -75,9 +75,9 @@ Some caretaker's tasks:
 ...
 github: publish
 		cd $(OUTPUTDIR)
-		git add -A .
-		git commit -m "Auto Post!"	
-		git push origin master
+		git -C $(OUTPUTDIR) add -A .
+		git -C $(OUTPUTDIR) commit -m "Auto Post!"	
+		git -C $(OUTPUTDIR) push origin master
 		cd $(BASEDIR)
 		git add -A .
 		git commit -m "Auto Commit!"	

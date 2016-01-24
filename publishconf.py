@@ -20,7 +20,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "https://odoodemystification.disqus.com/"
 GOOGLE_ANALYTICS = "UA-72349337-1"
 GOOGLE_PLUS_API_KEY="AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw"
 
@@ -29,7 +29,7 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ["googleplus_comments"]
 
 #theme
-THEME = "themes/SoMA2"
+THEME = "theme"
 
 # Urls
 ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'

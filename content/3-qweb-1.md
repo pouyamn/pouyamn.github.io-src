@@ -1,7 +1,7 @@
 Title: QWEB demystification, Part 1 - t-field and t-esc
 Date: 2016-01-16 11:26 
 Modified: 2016-01-16 11:26 
-Category: Odoo
+Category: QWEB
 Tags: QWEB, safe-eval, openerp, odoo, odoo reports
 Slug: qweb-1
 Authors: Pouya MN

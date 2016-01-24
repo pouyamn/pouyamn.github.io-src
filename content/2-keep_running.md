@@ -1,7 +1,7 @@
 Title: Keep Odoo running, easily
 Date: 2016-01-12 11:26 
 Modified: 2016-01-12 11:26 
-Category: odoo
+Category: General
 Tags: odoo, openerp, general 
 Slug: keep-odoo-running
 Authors: Pouya MN

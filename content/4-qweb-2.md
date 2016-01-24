@@ -1,7 +1,7 @@
 Title: QWEB demystification, Part 2 - qweb widgits
 Date: 2016-01-16 11:26 
 Modified: 2016-01-16 11:26 
-Category: Odoo
+Category: QWEB
 Tags: QWEB, safe-eval, openerp, odoo, odoo reports, qweb widgits 
 Slug: qweb-2
 Authors: Pouya MN
