@@ -1,4 +1,4 @@
-Title: Would you like 'like' and 'ilike' in your *domain* and *attr*?
+Title: Would you like to have some 'like's and 'ilike's in your domain and att*?
 Date: 2016-01-23 21:26 
 Modified: 2016-01-23 21:26 
 Category: views
@@ -34,6 +34,6 @@ and add these lines after it:
                 break; 
 ```
 and save it, TADA you can use it now. 
-warning: if you use it with a field which is not string, it will cause an error
+**warning: if you use it with a field which is not string, it will raise an error**
 
 
