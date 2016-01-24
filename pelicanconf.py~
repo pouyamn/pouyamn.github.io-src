@@ -38,7 +38,7 @@ PLUGIN_PATH = 'plugins'
 PLUGINS = ["googleplus_comments"]
 
 #theme
-THEME = "themes/SoMA2"
+THEME = "theme"
 #google plus api key
 GOOGLE_PLUS_API_KEY="AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw"
 # Urls

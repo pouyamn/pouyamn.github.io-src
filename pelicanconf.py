@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Pouya MN'
 SITENAME = u'Odoo Demystification'
-SITEURL = 'http://pouyamn.github.io'
+SITEURL = 'http://0.0.0.0:8000'
 
 TIMEZONE = 'Europe/Paris'
 

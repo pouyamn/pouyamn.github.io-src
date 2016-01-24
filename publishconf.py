@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://pouyamn.github.io'
+SITEURL = 'https://pouyamn.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -20,7 +20,7 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "https://odoodemystification.disqus.com/"
+DISQUS_SITENAME = "odoodemystification"
 GOOGLE_ANALYTICS = "UA-72349337-1"
 GOOGLE_PLUS_API_KEY="AIzaSyD-a9IF8KKYgoC3cpgS-Al7hLQDbugrDcw"
 
