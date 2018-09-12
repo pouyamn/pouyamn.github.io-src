@@ -26,7 +26,7 @@ git config credential.helper store
 I made a submodel repository by entering this in my main folder (ghpages):
 
 ```bash
-git submodule add https://github.com/pouyamn/pouyamn.github.io.git output
+git submodule add https://github.com/myusername/myusername.github.io.git output
 ```
 so it made a folder named *output*. Now it was the time for installing pelican and running it:
 ```bash
